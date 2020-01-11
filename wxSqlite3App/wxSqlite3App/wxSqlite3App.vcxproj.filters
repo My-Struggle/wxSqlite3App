@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="source\mainwindow">
+      <UniqueIdentifier>{1bf205ad-2c54-422d-8505-b125a5ce42da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\wxsqlite3">
+      <UniqueIdentifier>{ee94a460-784d-416d-b404-62561ca09e89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainwindow\mainframbase.cpp">
+      <Filter>source\mainwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow\mainframe.cpp">
+      <Filter>source\mainwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="sqliteapp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow\logindatabasedialog.cpp">
+      <Filter>source\mainwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow\databasespanel.cpp">
+      <Filter>source\mainwindow</Filter>
+    </ClCompile>
+    <ClCompile Include="wxsqlite3\wxsqlite3connect.cpp">
+      <Filter>source\wxsqlite3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sqliteapp.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwindow\mainframbase.h">
+      <Filter>source\mainwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwindow\mainframe.h">
+      <Filter>source\mainwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwindow\logindatabasedialog.h">
+      <Filter>source\mainwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwindow\databasespanel.h">
+      <Filter>source\mainwindow</Filter>
+    </ClInclude>
+    <ClInclude Include="wxincludes.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="wxsqlite3\wxsqlite3connect.h">
+      <Filter>source\wxsqlite3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
